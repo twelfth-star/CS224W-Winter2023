@@ -10,7 +10,7 @@ Decoder 计算 embedding 之间的相似度，比如内积。
 
 现在问题在于如何定义 $\text{similarity}$ 函数（即节点在图中的相似度）。
 
-# Randomo Walk Approaches for Node Embeddings
+# Random Walk Approaches for Node Embeddings
 
 用从 $u$ 出发的随机游走（walk，图论概念）经过 $v$ 的概率 $P$ 表示节点 $u$ 和 $v$ 的相似度。
 
